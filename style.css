@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+/* HEADER PART CSS START */
+.header-bg {
+  background-color: #2d25a0;
+  margin: 0%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 1160px;
+  display: flex;
+  justify-content: center;
+}
+.header-wrapper {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.header-text {
+  padding-left: 120px;
+  justify-items: center;
+}
+.header-text h2 {
+  color: white;
+  margin: 0px;
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+}
+.header-text button {
+  border: none;
+  background: none;
+  margin-top: 20px;
+}
+
+.header-text button a {
+  text-decoration: none;
+  background-color: tomato;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 8px 18px;
+  border-radius: 5px;
+  transition: 0.6s;
+}
+.header-text button a i {
+  font-size: 100px;
+  color: rgb(255, 0, 200);
+}
+.header-text button a:hover {
+  background-color: black;
+  color: white;
+}
+.header-right {
+  padding-left: 30px;
+}
+.header-right img {
+  width: 557px;
+  height: 438px;
+}
+
+/* HEADER PART CSS END */
+/* MAIN PART CSS START */
+main {
+  display: flex;
+  justify-content: center;
+}
+.body-bg {
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.container {
+  width: 1050px;
+}
+.player-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 15px;
+
+  align-items: center;
+}
+.blogs-box {
+  display: grid;
+  grid-template-columns: 1, 1fr;
+  justify-content: center;
+}
+.single-blog {
+  width: 310px;
+  margin-right: 15px;
+  padding: 15px;
+  box-shadow: #8888 1px 2px 20px;
+  border-radius: 5px;
+}
+.single-blog img {
+  width: 310px;
+  height: 255px;
+  border-radius: 5px;
+}
+.blogs-text h2 {
+  color: #4e4c4c;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.blogs-text p {
+  color: rgb(88 85 88 / 78%);
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  padding-right: 10px;
+}
+
+/* MAIN PART CSS END */
+
+.highlight-bg{
+   display: flex;
+   justify-content: center;
+}
+.highlight-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 1050px;
+}
+.highlight-wrapper-left {
+    background-color: #8888;
+    width: 500px;
+}
+.highlight-wrapper-right img{
+    width: 560px;
+    height: 425px;
+}
